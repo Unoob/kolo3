@@ -25,18 +25,18 @@ Przechodzimy do galezi student:
 
 Przechodzimy do galezi master: 
 6) Do galezi master scalamy zmiany z galezi student. Rozwiazujemy konflikt:
-   w pliku kolo3.cpp nie ma byc zadnych komentarzy.
-7) Jesli wszystko sie kompiluje to zatwierdzamy zmiany i wysylamy je na zdalne repozytorium.
-8) W historii repozytorium znajdujemy zatwierdzenie, w ktorym plik kolo3.cpp zawieraja klase Kolo.
-   Klasa Kolo (class Kolo, chodzi o figure geometryczna) zawiera metode pole (float pole()).
-   Ze znalezionego zatwierdzenia tworzymy galaz figura, przelaczamy sie na ta galaz.
+   w pliku kolo3.cpp nie ma byc zadnych komentarzy. Zatwierdzamy scalenie.
+7) Z galezi student tworzymy archiwum o nazwie student.zip i dodajemy je do repozytorium.
+8) W historii repozytorium znajdujemy zatwierdzenie, w ktorym plik kolo3.cpp zawiera klase Kolo.
+   Klasa Kolo (class Kolo, chodzi o figure geometryczna) zawiera metode pole: float pole().
+   Ze znalezionego zatwierdzenia tworzymy galaz figura.
 
-W galezi figura:
-9) Kompilujemy plik kolo3.cpp i uruchamiamy go.
-   Wynik dzialania programu (szczegolnie wartosc pola kola) wpisujemy jako komentarz w pliku kolo3.cpp.
+Przechodzimy do galezi figura: 
+8) Kompilujemy plik kolo3.cpp i uruchamiamy go.
+   Wynik dzialania programu wpisujemy jako komentarz w pliku kolo3.cpp.
 
-10) Dodajemy uzytkownika rperlinski do wspolpracownikow naszego projektu.
-    Ma miec prawa do zapisu w repozytorium, na ktorym piszecie kolokwium.
+9) Dodajemy uzytkownika rperlinski do wspolpracownikow naszego projektu.
+   Ma miec prawa do zapisu w repozytorium, na ktorym piszecie to kolokwium.
 
 III) Zawartosc wszystkich trzech galezi wysylamy na serwer.
 
