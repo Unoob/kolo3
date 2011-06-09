@@ -1,4 +1,45 @@
 
 Zarzadzanie Projektami Informatycznymi - kolokwium poprawkowe - 10 czerwca 2011
 
+Oceniana jest tylko zawartosc zdalnego repozytorium, ze stanem zatwierdzen wykonanych
+do zakonczenia pisania kolokwium. Pozniejsze zatwierdzenia nie beda uwzgledniane.
+
+ I) Utworzyc sobie wlasna kopie repozytorium kolo3/kolo3 na serwerze github.com,
+    do ktorego nikt poza wami nie ma dostepu. Zawartosc tego zdalnego repozytorium bedzie oceniana.
+II) Pobrac utworzona wlasnie kopie na komputer (repozytorium lokalne). W nim wykonujemy cale kolokwium.
+
+==============================================================================
+
+Trzeba skompilowac i uruchomic prosty program. Poza tym, jak zawsze, nalezy wykonac kilka polecen.
+W repozytorium sa dwie galezie: master i student. W galezi student jest program, ktory po uruchomieniu
+pyta studenta o jego dane (imie, nazwisko, nr. indeksu) i zapisuje je w pliku tekstowym (student-info.txt).
+
+1) Z galezi zdalnej origin/student tworzymy galaz lokalna o takiej samej nazwie.
+
+Przechodzimy do galezi student:
+2) Kompilujemy plik zrodlowy kolo3.cpp, uruchamiamy plik wykonywalny, podajemy swoje dane.
+   Na dysku tworzy sie plik student-info.txt zawierajacy podane przez nas dane.
+3) Powstaly przy kompilacji plik wykonywalny dodajemy do plikow ignorowanych.
+4) Utworzony plik student-info.txt dodajemy do repozytorium (uwaga na plik .gitignore).
+5) Zatwierdzamy zmiany i wysylamy je na zdalne repozytorium.
+
+Przechodzimy do galezi master: 
+6) Do galezi master scalamy zmiany z galezi student. Rozwiazujemy konflikt:
+   w pliku kolo3.cpp nie ma byc zadnych komentarzy.
+7) Jesli wszystko sie kompiluje to zatwierdzamy zmiany i wysylamy je na zdalne repozytorium.
+8) W historii repozytorium znajdujemy zatwierdzenie, w ktorym plik kolo3.cpp zawieraja klase Kolo.
+   Klasa Kolo (class Kolo, chodzi o figure geometryczna) zawiera metode pole (float pole()).
+   Ze znalezionego zatwierdzenia tworzymy galaz figura, przelaczamy sie na ta galaz.
+
+W galezi figura:
+9) Kompilujemy plik kolo3.cpp i uruchamiamy go.
+   Wynik dzialania programu (szczegolnie wartosc pola kola) wpisujemy jako komentarz w pliku kolo3.cpp.
+
+10) Dodajemy uzytkownika rperlinski do wspolpracownikow naszego projektu.
+    Ma miec prawa do zapisu w repozytorium, na ktorym piszecie kolokwium.
+
+III) Zawartosc wszystkich trzech galezi wysylamy na serwer.
+
+Udanej sesji, zdobycia wszystkich zaliczen
+Robert Perlinski
 
