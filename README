@@ -24,9 +24,8 @@ Przechodzimy do galezi student:
 5) Zatwierdzamy zmiany i wysylamy je na zdalne repozytorium.
 
 Przechodzimy do galezi master: 
-6) Do galezi master scalamy zmiany z galezi student. Rozwiazujemy konflikt:
-   w pliku kolo3.cpp nie ma byc zadnych komentarzy. Zatwierdzamy scalenie.
-7) Z galezi student tworzymy archiwum o nazwie student.zip i dodajemy je do repozytorium.
+6) Do galezi master scalamy zmiany z galezi student. Nie powinny wystapic zadne konflikty.
+7) Z galezi student tworzymy archiwum o nazwie student.zip. Dodajemy je do repozytorium.
 8) W historii repozytorium znajdujemy zatwierdzenie, w ktorym plik kolo3.cpp zawiera klase Kolo.
    Klasa Kolo (class Kolo, chodzi o figure geometryczna) zawiera metode pole: float pole().
    Ze znalezionego zatwierdzenia tworzymy galaz figura.
